@@ -5,7 +5,7 @@ export default function Header() {
     <div className={"headerContainer"}>
       <img src="../assets/headshot3.jpg" className={"headshot"} />
       <div className={"title"}>
-        <div> Saif Abdelkefi</div>
+        <div className="saif_H1"> Saif Abdelkefi</div>
         <div> Sofware Engineer</div>
       </div>
       <div className={"links"}>
