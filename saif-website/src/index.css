@@ -2,13 +2,16 @@
 * {
   background-color: rgb(37, 37, 45);
   color: rgb(250, 253, 255);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
   line-height: inherit;
 }
 
+/* Main container for centering content */
 .mainContainer {
   display: flex;
   justify-content: center;
@@ -18,9 +21,9 @@ body {
 .content {
   max-width: 48rem;
   min-width: 40rem;
-  /* to test, remove when i have content */
 }
 
+/* Title Styling */
 .saif_H1 {
   color: red;
 }
@@ -28,12 +31,14 @@ body {
 /* Menu Button Styles for WhoAmI, Experience, Projects */
 .menu-container {
   display: flex;
-  justify-content: center;
-  gap: 10px;
+  justify-content: flex-start; /* Align items to the left */
+  gap: 10px; /* Space between items */
+  padding-left: 10px; /* Optional: Add some padding to the left */
 }
 
+/* General link styles */
 .menu-item {
-  text-decoration: none;
+  text-decoration: none; /* Remove default underline from links */
 }
 
 .menu-button {
@@ -46,19 +51,23 @@ body {
   font-weight: 500;
   position: relative;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
+/* Hover effect */
 .menu-button:hover {
   background-color: rgb(37, 37, 45);
   border-color: rgb(250, 253, 255);
   color: rgb(250, 253, 255);
 }
 
+/* Styling for button text */
 .menu-button .button-text {
   position: relative;
   z-index: 10;
 }
 
+/* Remove focus outline */
 .menu-button:focus {
   outline: none;
 }
