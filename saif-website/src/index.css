@@ -3,6 +3,8 @@
 * {
   background-color: var(--background-color);
   color: rgb(172, 174, 176);
+  font-family: "argon";
+  /* font-family: "fira"; */
 }
 
 body {

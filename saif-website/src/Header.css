@@ -4,8 +4,6 @@
   width: 100%;
   display: flexs;
   justify-content: flex-start;
-  /* font-family: "fira"; */
-  font-family: "argon";
 
   img {
     width: 90px;
@@ -17,7 +15,7 @@
       font-size: 1.6rem;
     }
     .occupation {
-      color: var(--third-color);
+      color: var(--text-blue-gray);
       font-size: 1rem;
     }
   }
