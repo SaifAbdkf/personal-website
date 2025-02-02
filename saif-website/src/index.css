@@ -17,24 +17,7 @@ body {
 }
 
 .content {
-  background-color: rgb(118, 225, 193);
   max-width: 48rem;
   min-width: 40rem;
   /* to test, remove when i have content */
-}
-
-.title {
-  .name {
-    color: var(--text-color);
-    font-size: 1.8rem;
-  }
-  .occupation {
-    color: var(--third-color);
-    font-size: 1.2rem;
-  }
-}
-
-.links {
-  margin-top: 1.2em;
-  /* font-size: 1.2rem; */
 }

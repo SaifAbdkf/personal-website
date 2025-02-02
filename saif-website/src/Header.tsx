@@ -9,13 +9,22 @@ export default function Header() {
         <div className="occupation"> Software Engineer</div>
       </div>
       <div className={"links"}>
-        <div> CV </div>
+        <div>
+          <i className="fa-solid fa-file-pen"></i>
+        </div>
         {/* download cv with cool animation*/}
-        <div> github </div>
+        <div>
+          <i className="fa-brands fa-github"></i>
+        </div>
+
         {/* checkout my github */}
-        <div> linkedin </div>
+        <div>
+          {" "}
+          <i className="fa-brands fa-linkedin"></i>
+        </div>
         {/* lets connect on linkedin */}
       </div>
+      <hr></hr>
     </div>
   );
 }

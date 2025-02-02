@@ -8,6 +8,33 @@
   font-family: "argon";
 
   img {
-    width: 100px;
+    width: 90px;
+  }
+
+  .title {
+    .name {
+      color: var(--text-color);
+      font-size: 1.6rem;
+    }
+    .occupation {
+      color: var(--third-color);
+      font-size: 1rem;
+    }
+  }
+
+  .links {
+    margin-top: 0.8em;
+    font-size: 1.2em;
+    display: flex;
+    gap: 0.6em;
+    i {
+      color: var(--text-color);
+    }
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, var(--third-color), transparent);
   }
 }
