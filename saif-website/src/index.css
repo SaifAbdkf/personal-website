@@ -2,3 +2,21 @@
   background-color: rgb(37, 37, 45);
   color: rgb(250, 253, 255);
 }
+
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.content {
+  background-color: rgb(118, 225, 193);
+  max-width: 48rem;
+  min-width: 40rem;
+  /* to test, remove when i have content */
+}
