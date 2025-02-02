@@ -1,7 +1,11 @@
+@import url("./Styles/fonts.css");
+
 .headerContainer {
   width: 100%;
   display: flexs;
   justify-content: flex-start;
+  /* font-family: "fira"; */
+  font-family: "argon";
 
   img {
     width: 100px;
