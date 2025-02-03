@@ -1,9 +1,10 @@
 import "./Header.css";
+import headshot4 from "../assets/images/headshot4.jpg";
 
 export default function Header() {
   return (
     <div className={"headerContainer"}>
-      <img src="/public/headshot4.jpg" className={"headshot"} />
+      <img src={headshot4} className={"headshot"} alt={"headshot"} />
       <div className={"title"}>
         <div className="name"> Saif Abdelkefi</div>
         <div className="occupation"> Software Engineer</div>
