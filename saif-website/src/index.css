@@ -4,7 +4,7 @@
 
 * {
   background-color: var(--background-color);
-  color: rgb(172, 174, 176);
+  color: var(--text-color-darker);
   font-family: "argon";
   /* font-family: "fira"; */
 }
