@@ -1,17 +1,20 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
+  //   const navigate = useNavigate();
   return (
     <div className="menu-container">
-      <a href="/" className="menu-item">
+      <Link to="/">
         <button className="menu-button">WhoAmI</button>
-      </a>
-      <a href="/experience" className="menu-item">
+      </Link>
+      <Link to="/experience" className="menu-item">
         <button className="menu-button">Experience</button>
-      </a>
-      <a href="/projects" className="menu-item">
+      </Link>
+
+      <Link to="/projects" className="menu-item">
         <button className="menu-button">Projects</button>
-      </a>
+      </Link>
     </div>
   );
 }
