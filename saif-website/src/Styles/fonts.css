@@ -15,8 +15,36 @@
 @font-face {
   font-family: "argon";
   src: url("../../assets/fonts/MonaspaceArgon-Regular.woff2") format("woff2");
-  font-weight: 400; /* Normal */
+  font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "argon";
+  src: url("../../assets/fonts/MonaspaceArgon-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "argon";
+  src: url("../../assets/fonts/MonaspaceArgon-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "argon";
+  src: url("../../assets/fonts/MonaspaceArgon-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "argon";
+  src: url("../../assets/fonts/MonaspaceArgon-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {

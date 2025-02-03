@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+li {
+  margin: 4rem 0;
+}
+
+.jobTitleContainer {
+  display: flex;
+  justify-content: space-between;
+
+  .jobTitle {
+    font-size: var(--font-size-4);
+    color: var(--text-color);
+    margin: 0px;
+    font-weight: 400;
+  }
+
+  .date {
+    font-size: var(--font-size-6);
+  }
+}
+
+h3 {
+  font-size: var(--font-size-5);
+  margin-top: 0px;
+  font-weight: 400;
+  font-style: italic;
+}

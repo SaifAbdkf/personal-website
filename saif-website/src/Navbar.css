@@ -1,5 +1,6 @@
 .navigationContainer {
-  margin-top: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
 
   hr {
     border: 0;
@@ -17,7 +18,7 @@
       border-radius: 0.2rem;
       border: none;
       color: var(--text-blue-gray);
-      font-size: 1rem;
+      font-size: var(--font-size-5);
       position: relative;
       transition: all 0.3s ease;
       cursor: pointer;

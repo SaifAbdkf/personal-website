@@ -1,4 +1,6 @@
 @import url("./Styles/colors.css");
+@import url("./Styles/fonts.css");
+@import url("./Styles/fontSizes.css");
 
 * {
   background-color: var(--background-color);
@@ -6,18 +8,14 @@
   font-family: "argon";
   /* font-family: "fira"; */
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
 
 body {
   margin: 0;
-  line-height: inherit;
-}
-
-.mainContainer {
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
-}
-
-.content {
-  max-width: 48rem;
 }
