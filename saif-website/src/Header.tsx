@@ -3,14 +3,14 @@ import "./Header.css";
 export default function Header() {
   return (
     <div className={"headerContainer"}>
-      <img src="../public/headshot4.jpg" className={"headshot"} />
+      <img src="public/headshot4.jpg" className={"headshot"} />
       <div className={"title"}>
         <div className="name"> Saif Abdelkefi</div>
         <div className="occupation"> Software Engineer</div>
       </div>
       <div className={"links"}>
         <div>
-          <a href="../public/saif_resume.pdf" target="_blank">
+          <a href="public/saif_resume.pdf" target="_blank">
             <i className="fa-solid fa-file-pen"></i>
           </a>
         </div>
