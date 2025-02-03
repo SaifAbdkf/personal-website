@@ -20,6 +20,4 @@ body {
 
 .content {
   max-width: 48rem;
-  min-width: 40rem;
-  /* to test, remove when i have content */
 }

@@ -29,7 +29,6 @@ export default function Header() {
         </div>
         {/* lets connect on linkedin */}
       </div>
-      <hr></hr>
     </div>
   );
 }
