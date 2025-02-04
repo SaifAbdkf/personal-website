@@ -1,5 +1,4 @@
 import "./Header.css";
-import headshot4 from "../assets/images/headshot4.jpg";
 
 export default function Header() {
   return (
