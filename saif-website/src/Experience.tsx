@@ -1,5 +1,4 @@
 import "./Experience.css";
-import Headshot from "./Headshot";
 
 export default function Experience() {
   return (
@@ -50,8 +49,7 @@ export default function Experience() {
         </li>
       </ul>
 
-      {/* Place Headshot at the bottom */}
-      <Headshot />
+    
     </div>
   );
 }

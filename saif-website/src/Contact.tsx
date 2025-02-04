@@ -1,5 +1,4 @@
 import styles from "./Contact.module.css";
-import Headshot from "./Headshot";
 
 export default function Contact() {
   return (
@@ -9,8 +8,7 @@ export default function Contact() {
         <span className={styles.email}> hello@saifabdelkefi.com</span>
       </p>
       
-      {/* Place Headshot below the email paragraph */}
-      <Headshot />
+      
     </div>
   );
 }
