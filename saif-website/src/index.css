@@ -32,8 +32,9 @@ body {
 .menu-container {
   display: flex;
   justify-content: flex-start; /* Align items to the left */
-  gap: 10px; /* Space between items */
+  gap: 20px; /* Space between items */
   padding-left: 10px; /* Optional: Add some padding to the left */
+  margin-top: 20px; /* Optional: Add margin for spacing */
 }
 
 /* General link styles */
@@ -43,22 +44,22 @@ body {
 
 .menu-button {
   padding: 0.5rem 1rem;
-  border-radius: 0.375rem;
   background-color: transparent;
-  border: 2px solid transparent;
+  border: none; /* No border */
   color: rgb(250, 253, 255);
   font-size: 1rem;
   font-weight: 500;
   position: relative;
   transition: all 0.3s ease;
   cursor: pointer;
+  text-transform: none; /* Ensure the text stays in its original case */
+  letter-spacing: 0.05em;
 }
 
-/* Hover effect */
+/* Hover effect - Changes text color to black */
 .menu-button:hover {
-  background-color: rgb(37, 37, 45);
-  border-color: rgb(250, 253, 255);
-  color: rgb(250, 253, 255);
+  color: rgb(0, 0, 0); /* Text turns black */
+  background-color: transparent; /* No background color */
 }
 
 /* Styling for button text */
@@ -80,9 +81,17 @@ body {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: rgb(250, 253, 255);
+  background-color: rgb(0, 0, 0); /* Underline color is black */
   transform: scaleX(0);
   animation: underline 0.3s forwards;
+}
+
+/* Active (click) effect - Black background and white text */
+.menu-button:active {
+  background-color: rgb(0, 0, 0); /* Black background when clicked */
+  color: rgb(250, 253, 255); /* Text turns white when clicked */
+  border-radius: 0.375rem; /* Keep the rounded corners */
+  padding: 0.5rem 1rem;
 }
 
 /* Animation for the underline effect */
