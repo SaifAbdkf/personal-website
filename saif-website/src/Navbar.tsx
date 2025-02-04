@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
-import "./Navbar.css";
+import "./Navbar.css"; // Your CSS for Navbar
 
 export default function Navbar() {
-  const location = useLocation();
+  const location = useLocation(); // Get the current location/path
 
   return (
     <div className="navigationContainer">
@@ -10,9 +10,7 @@ export default function Navbar() {
       <div className="menu-container">
         <Link to="/">
           <button
-            className={`menu-button ${
-              location.pathname === "/" ? "active" : ""
-            }`}
+            className={`menu-button ${location.pathname === "/" ? "active" : ""}`}
           >
             WhoAmI
           </button>
@@ -20,9 +18,7 @@ export default function Navbar() {
 
         <Link to="/experience">
           <button
-            className={`menu-button ${
-              location.pathname === "/experience" ? "active" : ""
-            }`}
+            className={`menu-button ${location.pathname === "/experience" ? "active" : ""}`}
           >
             Experience
           </button>
@@ -30,18 +26,18 @@ export default function Navbar() {
 
         <Link to="/projects">
           <button
-            className={`menu-button ${
-              location.pathname === "/projects" ? "active" : ""
-            }`}
+            className={`menu-button ${location.pathname === "/projects" ? "active" : ""}`}
           >
             Projects
           </button>
         </Link>
-        <Link to="/contact" className="menu-item">
-          <button className={`menu-button ${
-              location.pathname === "/contact" ? "active" : ""
-            }`}>Contact
-            </button>
+
+        <Link to="/contact">
+          <button
+            className={`menu-button ${location.pathname === "/contact" ? "active" : ""}`}
+          >
+            Contact
+          </button>
         </Link>
       </div>
     </div>

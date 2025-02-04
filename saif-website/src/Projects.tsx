@@ -1,4 +1,5 @@
 import styles from "./Projects.module.css";
+import Headshot from "./Headshot";
 
 export default function Project() {
   return (
@@ -50,6 +51,9 @@ export default function Project() {
           </a>
         </li>
       </ul>
+
+      {/* Place Headshot at the bottom */}
+      <Headshot />
     </div>
   );
 }

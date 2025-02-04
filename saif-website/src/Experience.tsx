@@ -1,4 +1,5 @@
 import "./Experience.css";
+import Headshot from "./Headshot";
 
 export default function Experience() {
   return (
@@ -7,9 +8,7 @@ export default function Experience() {
         <li>
           <div>
             <div className={"jobTitleContainer"}>
-              <h2 className={"jobTitle"}>
-                Software Developer (Started as an Intern)
-              </h2>
+              <h2 className={"jobTitle"}>Software Developer (Started as an Intern)</h2>
               <span className={"date"}>May 2023 &#x2192; Aug 2024</span>
             </div>
             <h3>PixMob, Montreal</h3>
@@ -19,21 +18,22 @@ export default function Experience() {
             </p>
           </div>
         </li>
+
         <li>
           <div>
             <div className={"jobTitleContainer"}>
               <h2 className={"jobTitle"}>Intern Developer</h2>
               <span className={"date"}>May 2022 &#x2192; Apr 2023</span>
             </div>
-
             <h3>Raymond Chabot Grant Thornton, Montreal</h3>
             <p>
               Designed and developed a 80,000$ Power apps application
-              intergrated with PowerBI for accountants and CFOs to manage
+              integrated with PowerBI for accountants and CFOs to manage
               financial statements
             </p>
           </div>
         </li>
+
         <li>
           <div>
             <div className={"jobTitleContainer"}>
@@ -49,6 +49,9 @@ export default function Experience() {
           </div>
         </li>
       </ul>
+
+      {/* Place Headshot at the bottom */}
+      <Headshot />
     </div>
   );
 }
