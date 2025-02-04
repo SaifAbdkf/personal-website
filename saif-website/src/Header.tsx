@@ -3,7 +3,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <div className={"headerContainer"}>
-      <img src="../assets/headshot3.jpg" className={"headshot"} />
+      <img src="../saif-website/assets/images/headshot4.jpg" className={"headshot"} />
       <div className={"title"}>
         <div className="saif_H1"> Saif Abdelkefi</div>
         <div> Sofware Engineer</div>
