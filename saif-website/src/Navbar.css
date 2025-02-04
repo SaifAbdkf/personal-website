@@ -14,7 +14,7 @@
     gap: 5px;
 
     .menu-button {
-      padding: 0.3rem 0.5rem;
+      padding: 0.4rem 0.6rem;
       border-radius: 0.2rem;
       border: none;
       font-size: var(--font-size-5);
@@ -35,5 +35,6 @@
 
 .menu-button.active {
   background-color: var(--background-color-lighter);
+  color: var(--text-color);
   border-radius: 5px;
 }

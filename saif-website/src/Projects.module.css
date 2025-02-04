@@ -16,8 +16,15 @@ li {
 a {
   text-decoration: none;
   &:hover {
+    div {
+      background-color: var(--background-color-lighter);
+    }
     h2 {
+      background-color: var(--background-color-lighter);
       text-decoration: underline;
+    }
+    p {
+      background-color: var(--background-color-lighter);
     }
   }
 }

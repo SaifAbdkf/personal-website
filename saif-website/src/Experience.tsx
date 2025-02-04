@@ -40,7 +40,7 @@ export default function Experience() {
               <h2 className={"jobTitle"}>Coding teacher</h2>
               <span className={"date"}>Sep 2021 – May 2022</span>
             </div>
-            <h3>BLI, Montreal,</h3>
+            <h3>BLI, Montreal</h3>
             <p>
               Designed a Python programming course and taught it to over 20 high
               school teenagers guiding them to come up with creative and optimal

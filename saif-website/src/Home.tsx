@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <div className={"paragraphsContainer"}>
       <p>
-        Hello! My name is Saif, a dedicated Software professional with 3+ years
-        of experience. I have a strong foundation in web technologies especially
-        Typescript, React and Node.js, and a deep understanding on how things
-        work under the hood.
+        Hello! My name is Saif, a newly graduated Software professional with 3+
+        years of experience. I have a strong foundation in web technologies
+        especially Typescript, React and Node.js, and a deep understanding on
+        how things work under the hood.
         <p>
           Passionate about writing maintainable efficient composable code, and
           collaborating with cross-functional teams to deliver high-quality
