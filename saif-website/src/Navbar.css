@@ -5,16 +5,16 @@
   hr {
     border: 0;
     height: 1px;
-    background: linear-gradient(to right, var(--third-color), transparent);
+    background: linear-gradient(to right, var(--text-blue-gray), transparent);
   }
 
   .menu-container {
     display: flex;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 5px;
 
     .menu-button {
-      padding: 0.5rem 1rem;
+      padding: 0.3rem 0.5rem;
       border-radius: 0.2rem;
       border: none;
       font-size: var(--font-size-5);

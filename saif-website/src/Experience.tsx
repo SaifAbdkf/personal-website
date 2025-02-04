@@ -26,11 +26,11 @@ export default function Experience() {
               <span className={"date"}>May 2022 – Apr 2023</span>
             </div>
 
-            <h3>Raymond Chabot Grant Thornton, Montreal,</h3>
+            <h3>Raymond Chabot Grant Thornton, Montreal</h3>
             <p>
               Designed and developed a 80,000$ Power apps application
-              intergrated with PowerBI for accountants and CFO's to manage the
-              comments of financial statements.
+              intergrated with PowerBI for accountants and CFO's to manage
+              financial statements
             </p>
           </div>
         </li>
@@ -43,7 +43,7 @@ export default function Experience() {
             <h3>BLI, Montreal,</h3>
             <p>
               Designed a Python programming course and taught it to over 20 high
-              school teenagers Guiding them to come up with creative and optimal
+              school teenagers guiding them to come up with creative and optimal
               designs for their programs
             </p>
           </div>

@@ -17,6 +17,9 @@ export default function Navbar() {
         <Link to="/projects" className="menu-item">
           <button className="menu-button">Projects</button>
         </Link>
+        <Link to="/contact" className="menu-item">
+          <button className="menu-button">Contact</button>
+        </Link>
       </div>
     </div>
   );
