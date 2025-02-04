@@ -1,21 +1,29 @@
+import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
 
 export default function Navbar() {
-  //   const navigate = useNavigate();
+  const location = useLocation(); // Récupérer le chemin actuel
+
   return (
-    <div className={"navigationContainer"}>
-      <hr></hr>
+    <div className="navigationContainer">
+      <hr />
       <div className="menu-container">
         <Link to="/">
-          <button className="menu-button">WhoAmI</button>
-        </Link>
-        <Link to="/experience" className="menu-item">
-          <button className="menu-button">Experience</button>
+          <button className={`menu-button ${location.pathname === "/" ? "active" : ""}`}>
+            WhoAmI
+          </button>
         </Link>
 
-        <Link to="/projects" className="menu-item">
-          <button className="menu-button">Projects</button>
+        <Link to="/experience">
+          <button className={`menu-button ${location.pathname === "/experience" ? "active" : ""}`}>
+            Experience
+          </button>
+        </Link>
+
+        <Link to="/projects">
+          <button className={`menu-button ${location.pathname === "/projects" ? "active" : ""}`}>
+            Projects
+          </button>
         </Link>
       </div>
     </div>

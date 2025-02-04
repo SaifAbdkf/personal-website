@@ -1,34 +1,42 @@
 .navigationContainer {
   margin-top: 4rem;
   margin-bottom: 2.5rem;
-
-  hr {
-    border: 0;
-    height: 1px;
-    background: linear-gradient(to right, var(--third-color), transparent);
-  }
-
-  .menu-container {
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-
-    .menu-button {
-      padding: 0.5rem 1rem;
-      border-radius: 0.2rem;
-      border: none;
-      font-size: var(--font-size-5);
-      position: relative;
-      cursor: pointer;
-    }
-
-    /* Hover effect */
-    .menu-button:hover {
-      color: var(--text-color);
-    }
-
-    .menu-button:focus {
-      outline: none;
-    }
-  }
 }
+
+.navigationContainer hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, var(--third-color), transparent);
+}
+
+.menu-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.menu-button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  font-size: var(--font-size-5);
+  position: relative;
+  cursor: pointer;
+  transition: border 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Effet au survol */
+.menu-button:hover {
+  color: var(--text-color);
+}
+
+/* Bouton actif avec cadre et fond gris */
+.menu-button.active {
+  border: none; /* Supprime la bordure */
+  background-color: #2d2e30; /* Ajoute un fond gris */
+  border-radius: 5px;
+  font-weight: bold;
+  color: white; /* Rend le texte blanc pour contraste */
+}
+
+/* Style du titre sur chaque page */
