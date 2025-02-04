@@ -4,3 +4,29 @@
     line-height: 1.75rem;
   }
 }
+
+
+.jumpAnimationOfIntro {
+  font-weight: bold;
+  display: inline-block;
+  animation: jump 0.5s ease-in-out forwards; /* Apply jump animation for 3 seconds */
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px); /* Move up */
+  }
+  50% {
+    transform: translateY(0); /* Go back to the original position */
+  }
+  75% {
+    transform: translateY(10); /* Go back to the original position */
+  }
+ 
+  100% {
+    transform: translateY(0);
+  }
+}

@@ -12,7 +12,7 @@ export default function Project() {
           >
             <div>
               <h2 className={styles.projectTitle}>World Cup 2022 predictor</h2>
-              <p>
+              <p className=".jumpAnimationOfIntro">
                 An SVM model trained on a historical game results and FIFA video
                 game team ratings, running in the backend of a Django
                 application
