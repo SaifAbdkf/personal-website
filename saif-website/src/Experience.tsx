@@ -10,7 +10,7 @@ export default function Experience() {
               <h2 className={"jobTitle"}>
                 Software Developer (Started as an Intern)
               </h2>
-              <span className={"date"}>May 2023 → Aug 2024</span>
+              <span className={"date"}>May 2023 &#x2192; Aug 2024</span>
             </div>
             <h3>PixMob, Montreal</h3>
             <p>
@@ -23,13 +23,13 @@ export default function Experience() {
           <div>
             <div className={"jobTitleContainer"}>
               <h2 className={"jobTitle"}>Intern Developer</h2>
-              <span className={"date"}>May 2022 → Apr 2023</span>
+              <span className={"date"}>May 2022 &#x2192; Apr 2023</span>
             </div>
 
             <h3>Raymond Chabot Grant Thornton, Montreal</h3>
             <p>
               Designed and developed a 80,000$ Power apps application
-              intergrated with PowerBI for accountants and CFO's to manage
+              intergrated with PowerBI for accountants and CFOs to manage
               financial statements
             </p>
           </div>
@@ -38,7 +38,7 @@ export default function Experience() {
           <div>
             <div className={"jobTitleContainer"}>
               <h2 className={"jobTitle"}>Coding teacher</h2>
-              <span className={"date"}>Sep 2021 → May 2022</span>
+              <span className={"date"}>Sep 2021 &#x2192; May 2022</span>
             </div>
             <h3>BLI, Montreal</h3>
             <p>
