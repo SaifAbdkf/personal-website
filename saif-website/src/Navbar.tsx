@@ -37,6 +37,9 @@ export default function Navbar() {
             Projects
           </button>
         </Link>
+        <Link to="/contact" className="menu-item">
+          <button className="menu-button">Contact</button>
+        </Link>
       </div>
     </div>
   );

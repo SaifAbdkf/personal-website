@@ -1,0 +1,29 @@
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+li {
+  margin-bottom: 3rem;
+}
+
+.projectTitle {
+  font-size: var(--font-size-4);
+  color: var(--text-color);
+  margin: 0px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    h2 {
+      text-decoration: underline;
+    }
+  }
+}
+h3 {
+  font-size: var(--font-size-5);
+  margin-top: 0px;
+  font-weight: 400;
+  font-style: italic;
+}
