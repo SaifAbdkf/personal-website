@@ -38,7 +38,10 @@ export default function Navbar() {
           </button>
         </Link>
         <Link to="/contact" className="menu-item">
-          <button className="menu-button">Contact</button>
+          <button className={`menu-button ${
+              location.pathname === "/contact" ? "active" : ""
+            }`}>Contact
+            </button>
         </Link>
       </div>
     </div>
