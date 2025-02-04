@@ -8,6 +8,7 @@ li {
 
 .jobTitleContainer {
   display: flex;
+  gap: 0.5em;
   justify-content: space-between;
 
   .jobTitle {

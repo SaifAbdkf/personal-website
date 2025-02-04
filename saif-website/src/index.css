@@ -19,3 +19,21 @@ html {
 body {
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 93.75%; /* 15px */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 87.5%; /* 14px */
+  }
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 81.25%; /* 13px */
+  }
+}
