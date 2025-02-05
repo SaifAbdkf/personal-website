@@ -1,6 +1,6 @@
 import "./Header.css";
 import pdp_small from "../assets/images/pdp_small.jpg";
-import cv from "../assets/saif_resume.pdf";
+import cv from "../assets/Saif_CV.pdf";
 
 export default function Header() {
   return (
