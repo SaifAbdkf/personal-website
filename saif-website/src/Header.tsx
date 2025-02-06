@@ -1,11 +1,14 @@
 import "./Header.css";
 import pdp_small from "../assets/images/pdp_small.jpg";
 import cv from "../assets/Saif_CV.pdf";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <div className={"headerContainer"}>
-      <img src={pdp_small} className={"headshot"} alt={"headshot"} />
+      <Link to="/">
+        <img src={pdp_small} className={"headshot"} alt={"headshot"} />
+      </Link>
       <div className={"title"}>
         <div className="name"> Saif Abdelkefi</div>
         <div className="occupation"> Software Engineer</div>
