@@ -2,11 +2,11 @@ import "./Experience.css";
 
 export default function Experience() {
   return (
-    <div className={"listContainer"}>
+    <div className={"listContainer jumpAnimation"}>
       <ul>
         <li>
           <div>
-            <div className={"jobTitleContainer"}>
+            <div className={"jobTitleContainer "}>
               <h2 className={"jobTitle"}>
                 Software Developer (Started as an Intern)
               </h2>
@@ -19,24 +19,25 @@ export default function Experience() {
             </p>
           </div>
         </li>
+
         <li>
           <div>
-            <div className={"jobTitleContainer"}>
+            <div className={"jobTitleContainer "}>
               <h2 className={"jobTitle"}>Intern Developer</h2>
               <span className={"date"}>May 2022 &#x2192; Apr 2023</span>
             </div>
-
             <h3>Raymond Chabot Grant Thornton, Montreal</h3>
             <p>
-              Designed and developed a 80,000$ Power apps application
-              intergrated with PowerBI for accountants and CFOs to manage
-              financial statements
+              Designed and developed a 80,000$ Power apps application integrated
+              with PowerBI for accountants and CFOs to manage financial
+              statements
             </p>
           </div>
         </li>
+
         <li>
           <div>
-            <div className={"jobTitleContainer"}>
+            <div className={"jobTitleContainer "}>
               <h2 className={"jobTitle"}>Coding teacher</h2>
               <span className={"date"}>Sep 2021 &#x2192; May 2022</span>
             </div>

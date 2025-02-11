@@ -2,7 +2,7 @@ import styles from "./Projects.module.css";
 
 export default function Project() {
   return (
-    <div className={"listContainer"}>
+    <div className={"listContainer jumpAnimation"}>
       <ul>
         <li>
           <a

@@ -2,9 +2,6 @@ ul {
   list-style-type: none;
   padding: 0px;
 }
-li {
-  /* margin-bottom: 1rem; */
-}
 
 .jobTitleContainer {
   display: flex;

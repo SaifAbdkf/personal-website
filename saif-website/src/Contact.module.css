@@ -5,3 +5,7 @@
     color: var(--text-color);
   }
 }
+.email {
+  font-weight: bold;
+  display: inline-block;
+}

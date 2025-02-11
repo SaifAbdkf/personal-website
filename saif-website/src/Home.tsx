@@ -2,7 +2,7 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className={"paragraphsContainer"}>
+    <div className={"paragraphsContainer jumpAnimation"}>
       <p>
         Hello! My name is Saif, a fesh McGill graduate and a software
         professional with 3+ years of experience. I have a strong foundation in
