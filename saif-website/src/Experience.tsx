@@ -2,7 +2,7 @@ import "./Experience.css";
 
 export default function Experience() {
   return (
-    <div className={"listContainer jumpAnimationOfIntro"}>
+    <div className={"listContainer jumpAnimation"}>
       <ul>
         <li>
           <div>

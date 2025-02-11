@@ -1,9 +1,8 @@
 import styles from "./Projects.module.css";
 
-
 export default function Project() {
   return (
-    <div className={"listContainer"}>
+    <div className={"listContainer jumpAnimation"}>
       <ul>
         <li>
           <a
@@ -12,7 +11,7 @@ export default function Project() {
           >
             <div>
               <h2 className={styles.projectTitle}>World Cup 2022 predictor</h2>
-              <p className=".jumpAnimationOfIntro">
+              <p>
                 An SVM model trained on a historical game results and FIFA video
                 game team ratings, running in the backend of a Django
                 application
@@ -51,8 +50,6 @@ export default function Project() {
           </a>
         </li>
       </ul>
-
-
     </div>
   );
 }
