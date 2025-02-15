@@ -14,21 +14,24 @@ export default function Header() {
         <div className="occupation"> Software Engineer</div>
       </div>
       <div className={"links"}>
-        <div>
+        <div className="cvLink">
           <a href={cv} target="_blank">
             <i className="fa-solid fa-file-pen"></i>
           </a>
+          <span className={"tooltipCV"}>preview cv</span>
         </div>
-        <div>
+        <div className="githubLink">
           <a href="https://github.com/AslemaEnaSaif" target="_blank">
             <i className="fa-brands fa-github"></i>
           </a>
+          <span className={"tooltipGithub"}>checkout github</span>
         </div>
 
-        <div>
+        <div className={"linkedinLink"}>
           <a href="https://www.linkedin.com/in/saifabdelkefi/" target="_blank">
             <i className="fa-brands fa-linkedin"></i>
           </a>
+          <span className={"tooltipLinkedin"}>connect on linkedin</span>
         </div>
       </div>
     </div>

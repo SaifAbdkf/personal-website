@@ -6,6 +6,6 @@
   }
 }
 .email {
-  font-weight: bold;
+  /* font-weight: medium; */
   display: inline-block;
 }

@@ -28,4 +28,39 @@
       color: var(--text-color);
     }
   }
+
+  .cvLink,
+  .githubLink,
+  .linkedinLink {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .tooltipCV,
+  .tooltipGithub,
+  .tooltipLinkedin {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-size: var(--font-size-6);
+    background-color: rgb(18, 18, 18);
+    padding: 0.125rem;
+    border-radius: 0.125rem;
+  }
+
+  .cvLink:hover .tooltipCV {
+    opacity: 1;
+  }
+
+  .githubLink:hover .tooltipGithub {
+    opacity: 1;
+  }
+
+  .linkedinLink:hover .tooltipLinkedin {
+    opacity: 1;
+  }
 }
