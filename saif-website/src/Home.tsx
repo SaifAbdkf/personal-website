@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div className={"paragraphsContainer jumpAnimation"}>
       <p>
-        Hello! My name is Saif, a fesh McGill graduate and a software
-        professional with 3+ years of experience. I have a strong foundation in
-        web technologies especially Typescript, React and Node.js, and a deep
+        Hello! My name is Saif, a recent McGill graduate and a software engineer
+        with 3+ years of experience. I have a strong foundation in web
+        technologies especially Typescript, React and Node.js, and a deep
         understanding on how things work under the hood.
         <p>
           Dedicated to writing maintainable efficient composable code, and
