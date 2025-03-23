@@ -1,6 +1,6 @@
 import "./Header.css";
 import pdp_small from "../assets/images/pdp_small.jpg";
-import cv from "../assets/Saif_CV.pdf";
+import cv from "../assets/Saif_Eddine_Abdelkefi_CV.pdf";
 import { Link } from "react-router-dom";
 
 export default function Header() {
