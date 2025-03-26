@@ -2,21 +2,24 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className={"paragraphsContainer jumpAnimation"}>
+    <div className={"homeDescription jumpAnimation"}>
       <p>
-        Hello! My name is Saif, a recent McGill graduate and a software engineer
-        with 3+ years of experience. I have a strong foundation in web
-        technologies especially Typescript, React and Node.js, and a deep
-        understanding on how things work under the hood.
-        <p>
-          Dedicated to writing maintainable efficient composable code, and
-          collaborating with cross-functional teams to deliver high-quality
-          software.
-        </p>
-        <p>
-          Driven by an overwhelming urge to tinker, figure things out, and build
-          user-facing high impact applications.
-        </p>
+        Hey! My name is Saif, a recent{" "}
+        <a className="myLink" href="https://www.mcgill.ca/" target="_blank">
+          McGill
+        </a>{" "}
+        graduate and a full stack software engineer with 3+ years of experience.
+        I always aim to write maintainable efficient and composable code.
+      </p>
+      <p>
+        I have an overwhelming urge to tinker, figure things out, and build
+        scalable user-facing applications. I find LLMs to be a great assistant
+        along the way.
+      </p>
+
+      <p>
+        ...Also, naming commits is my nemesis. ‘fix-stuff’ is basically my
+        brand.
       </p>
     </div>
   );

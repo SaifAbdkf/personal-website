@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div className={"headerContainer"}>
-      <Link to="/">
+      <Link to="/" className="homeLink">
         <img src={pdp_small} className={"headshot"} alt={"headshot"} />
-      </Link>
-      <div className={"title"}>
+
         <div className="name"> Saif Abdelkefi</div>
-        <div className="occupation"> Software Engineer</div>
-      </div>
+      </Link>
+      <div className="occupation"> Software Engineer</div>
+
       <div className={"links"}>
         <div className="cvLink">
           <a href={cv} target="_blank">

@@ -6,17 +6,17 @@
   img {
     width: 90px;
   }
-
-  .title {
-    .name {
-      color: var(--text-color);
-      font-size: var(--font-size-1);
-      font-weight: 300;
-    }
-    .occupation {
-      color: var(--text-blue-gray);
-      font-size: var(--font-size-4);
-    }
+  .homeLink {
+    text-decoration: none;
+  }
+  .name {
+    color: var(--text-color);
+    font-size: var(--font-size-1);
+    font-weight: 300;
+  }
+  .occupation {
+    color: var(--text-blue-gray);
+    font-size: var(--font-size-4);
   }
 
   .links {
@@ -47,7 +47,7 @@
     opacity: 0;
     transition: opacity 0.2s;
     font-size: var(--font-size-6);
-    background-color: rgb(18, 18, 18);
+    background-color: var(--background-color-darker);
     padding: 0.125rem;
     border-radius: 0.125rem;
   }

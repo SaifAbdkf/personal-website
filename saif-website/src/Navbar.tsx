@@ -10,7 +10,9 @@ export default function Navbar() {
       <div className="menu-container">
         <Link to="/">
           <button
-            className={`menu-button ${location.pathname === "/" ? "active" : ""}`}
+            className={`first-menu-button menu-button ${
+              location.pathname === "/" ? "active" : ""
+            }`}
           >
             WhoAmI
           </button>
@@ -18,7 +20,9 @@ export default function Navbar() {
 
         <Link to="/experience">
           <button
-            className={`menu-button ${location.pathname === "/experience" ? "active" : ""}`}
+            className={`menu-button ${
+              location.pathname === "/experience" ? "active" : ""
+            }`}
           >
             Experience
           </button>
@@ -26,7 +30,9 @@ export default function Navbar() {
 
         <Link to="/projects">
           <button
-            className={`menu-button ${location.pathname === "/projects" ? "active" : ""}`}
+            className={`menu-button ${
+              location.pathname === "/projects" ? "active" : ""
+            }`}
           >
             Projects
           </button>
@@ -34,7 +40,9 @@ export default function Navbar() {
 
         <Link to="/contact">
           <button
-            className={`menu-button ${location.pathname === "/contact" ? "active" : ""}`}
+            className={`menu-button ${
+              location.pathname === "/contact" ? "active" : ""
+            }`}
           >
             Contact
           </button>
