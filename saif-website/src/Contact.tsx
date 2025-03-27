@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className={`${styles.contactContainer} jumpAnimation`}>
       <p className={styles.contactParagraph}>
-        I am currently open to work, you can reach me on my email{" "}
+        I am currently open to full stack developer roles, you can reach me at{" "}
         <a
           className={styles.email}
           target="_blank"
