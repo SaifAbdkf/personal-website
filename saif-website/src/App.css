@@ -1,10 +1,25 @@
 .mainContainer {
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 4rem 2rem;
 }
 
-.content {
-  max-width: 48rem;
+.websiteView {
+  max-width: 64rem;
   width: 100%;
+  display: flex;
+  gap: 2rem;
+  .headerContainer {
+    flex: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .websiteView {
+    display: block;
+  }
+
+  .content {
+    margin-top: 3rem;
+  }
 }

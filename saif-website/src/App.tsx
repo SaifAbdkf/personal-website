@@ -11,15 +11,20 @@ export default function App() {
   return (
     <Router>
       <div className="mainContainer">
-        <div className="content">
-          <Header />
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+        <div className="websiteView">
+          <div className="headerContainer">
+            <Header />
+          </div>
+
+          <div className="content">
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/experience" element={<Experience />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </div>
         </div>
       </div>
     </Router>

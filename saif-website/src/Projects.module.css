@@ -49,7 +49,7 @@ ul {
 }
 
 .inProgressItem {
-  border: solid 2px #dba527;
+  border: solid 2px var(--frame-color);
   position: relative;
   margin-top: 2rem;
   &:hover {
@@ -65,7 +65,7 @@ ul {
     color: var(--text-color);
     top: -13px;
     right: 15px;
-    border: solid 2px #dba527;
+    border: solid 2px var(--frame-color);
   }
 }
 h3 {

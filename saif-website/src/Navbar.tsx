@@ -6,7 +6,6 @@ export default function Navbar() {
 
   return (
     <div className="navigationContainer">
-      <hr />
       <div className="menu-container">
         <Link to="/">
           <button

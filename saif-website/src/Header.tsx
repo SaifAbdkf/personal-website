@@ -17,13 +17,16 @@ export default function Header() {
         </Link>
       </div>
       <div className={"infoContainer"}>
-        <div className="name"> Saif Abdelkefi</div>
+        <Link to="/" className="homeLink">
+          <div className="name"> Saif Abdelkefi</div>
+        </Link>
         <div className="occupation"> Software Engineer</div>
         <div className={"links"}>
           <div className="cvLink">
             <a href={cv} target="_blank">
               <i className="fa-solid fa-file-pen"></i>
             </a>
+            <span className={"tooltipCV"}>preview resume</span>
           </div>
           <span className={"tooltipCV"}>preview cv</span>
           <div className="githubLink">

@@ -9,13 +9,13 @@ export default function Home() {
         <a className="myLink" href="https://www.mcgill.ca/" target="_blank">
           McGill
         </a>{" "}
-        Computer Science alumni. I always aim to write maintainable efficient
-        and composable code.
+        Computer Science alumni.
       </p>
       <p>
-        I have an overwhelming urge to tinker, figure things out, and build
-        scalable user-facing applications. I find LLMs to be a great assistant
-        along the way.
+        I always aim to write maintainable efficient and composable code.I have
+        an overwhelming urge to tinker, figure things out, and build scalable
+        user-facing applications. I find LLMs to be a great assistant along the
+        way.
       </p>
 
       <p>...Also, naming commits is my nemesis: ‘fix-stuff’ is default.</p>

@@ -1,31 +1,18 @@
 .navigationContainer {
-  margin-top: 1rem;
-  /* margin-bottom: 1rem; */
-
-  hr {
-    border: 0;
-    height: 1px;
-    background: linear-gradient(to right, var(--text-blue-gray), transparent);
-  }
-
   .menu-container {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
 
-    gap: 0.1srem;
+    gap: 0.1rem;
 
     .menu-button {
-      padding: 0.6rem 1.425rem;
+      padding: 0.6rem;
       border-radius: 0.2rem;
       border: none;
       font-size: var(--font-size-5);
       position: relative;
       cursor: pointer;
-    }
-
-    .first-menu-button {
-      padding-left: 1.425rem;
     }
 
     /* Hover effect */
@@ -43,4 +30,14 @@
   background-color: var(--background-color-lighter);
   color: var(--text-color);
   border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .websiteView {
+    display: block;
+  }
+
+  .content {
+    margin-top: 3rem;
+  }
 }
