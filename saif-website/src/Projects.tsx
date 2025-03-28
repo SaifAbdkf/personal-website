@@ -5,10 +5,10 @@ export default function Project() {
     <div className={"listContainer jumpAnimation"}>
       <ul>
         <li>
-          <div className={`${styles.inProgress} ${styles.listItemContainer}`}>
-            <h2 className={styles.projectTitle}>
-              GraphCards (Work in Progress)
-            </h2>
+          <div
+            className={`${styles.inProgressItem} ${styles.listItemContainer}`}
+          >
+            <h2 className={styles.projectTitle}>GraphCards</h2>
             <p className={`${styles.projectDescription}`}>
               Currently building a Knowledge Management System (KMS) web
               application that visualizes relationships between concepts as an
@@ -16,6 +16,9 @@ export default function Project() {
               techniques (including word embeddings and clustering) for
               intelligent context-driven connections
             </p>
+            <span className={`${styles.inProgressLabel}`}>
+              work in progress{" "}
+            </span>
           </div>
         </li>
 

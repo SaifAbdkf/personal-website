@@ -12,7 +12,8 @@ ul {
 .listItemContainer {
   box-sizing: border-box;
   padding: 1.425rem;
-  padding-left: 0.325rem;
+
+  /* padding-left: 0.325rem; */
 
   .projectTitle {
     font-size: var(--font-size-4);
@@ -34,7 +35,7 @@ ul {
       background-color: var(--background-color-lighter);
     }
 
-    &.inProgress {
+    &.inProgressItem {
       cursor: default;
       .projectTitle {
         text-decoration: none;
@@ -47,6 +48,26 @@ ul {
   }
 }
 
+.inProgressItem {
+  border: solid 2px #dba527;
+  position: relative;
+  margin-top: 2rem;
+  &:hover {
+    cursor: default;
+    .projectTitle {
+      text-decoration: none;
+    }
+  }
+  .inProgressLabel {
+    position: absolute;
+    padding: 6px;
+    font-size: 14px;
+    color: var(--text-color);
+    top: -13px;
+    right: 15px;
+    border: solid 2px #dba527;
+  }
+}
 h3 {
   font-size: var(--font-size-5);
   margin-top: 0px;
