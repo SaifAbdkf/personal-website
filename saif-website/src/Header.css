@@ -2,9 +2,19 @@
   width: 100%;
   display: flexs;
   justify-content: flex-start;
+  display: flex;
 
-  img {
-    width: 90px;
+  .pictureContainer {
+    width: 200px;
+  }
+
+  .infoContainer {
+    padding-left: 1rem;
+    flex: 4;
+    /* align-self: center; */
+  }
+  .headshot {
+    width: 100%;
   }
   .homeLink {
     text-decoration: none;
