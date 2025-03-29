@@ -1,5 +1,5 @@
 import "./Header.css";
-import pic2 from "../assets/images/coverPicteotihuacan.jpg";
+import pic2 from "../assets/images/coverPicteotihuacan_smaller.jpg";
 import cv from "../assets/Saif_Eddine_Abdelkefi_CV.pdf";
 import { Link } from "react-router-dom";
 

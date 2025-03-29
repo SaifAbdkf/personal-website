@@ -58,7 +58,7 @@ export default function Experience() {
             <h3>
               <a
                 className="myLink"
-                href="https://www.rcgt.com/"
+                href="https://bli.ca/bli-montreal/"
                 target="_blank"
               >
                 BLI

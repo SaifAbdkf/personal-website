@@ -12,10 +12,10 @@ export default function Home() {
         Computer Science alumni.
       </p>
       <p>
-        I always aim to write maintainable efficient and composable code.I have
-        an overwhelming urge to tinker, figure things out, and build scalable
-        user-facing applications. I find LLMs to be a great assistant along the
-        way.
+        I aim to write maintainable, efficient, and composable code. To me,
+        programming is about decomposing problems and figuring things out one
+        step at a time, with the user always in mind. I find LLMs to be a great
+        assistant along the way.
       </p>
 
       <p>...Also, naming commits is my nemesis: ‘fix-stuff’ is default.</p>
