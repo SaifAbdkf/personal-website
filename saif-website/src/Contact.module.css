@@ -2,11 +2,11 @@
   padding: 1.425rem;
   padding-left: 0.325rem;
   font-size: var(--font-size-5);
-  line-height: 1.75rem;
   .email {
     color: var(--text-color);
   }
 }
+
 .email {
   display: inline-block;
 }

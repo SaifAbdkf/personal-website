@@ -6,8 +6,7 @@
   background-color: var(--background-color);
   color: var(--text-color-darker);
   font-family: "argon";
-
-  /* font-family: "fira"; */
+  line-height: 1.55rem;
 }
 ::-webkit-scrollbar {
   display: none;

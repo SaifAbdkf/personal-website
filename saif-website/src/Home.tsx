@@ -18,7 +18,7 @@ export default function Home() {
         assistant along the way.
       </p>
 
-      <p>...Also, naming commits is my nemesis: ‘fix-stuff’ is default.</p>
+      <p>...Also, naming commits is my nemesis: ‘fix-stuff’ is my default.</p>
     </div>
   );
 }

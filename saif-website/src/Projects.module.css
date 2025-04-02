@@ -24,7 +24,6 @@ ul {
   .projectDescription {
     padding-top: 1rem;
     margin: 0px;
-    line-height: 1.375rem;
   }
 
   &:hover {

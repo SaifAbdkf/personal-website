@@ -1,6 +1,5 @@
 import "./Header.css";
 import pic2 from "../assets/images/coverPicteotihuacan_smaller.jpg";
-import cv from "../assets/Saif_Eddine_Abdelkefi_CV.pdf";
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -20,10 +19,13 @@ export default function Header() {
         <Link to="/" className="homeLink">
           <div className="name"> Saif Abdelkefi</div>
         </Link>
-        <div className="occupation"> Software Engineer</div>
+        <div className="occupation"> Full Stack Developer</div>
         <div className={"links"}>
           <div className="cvLink">
-            <a href={cv} target="_blank">
+            <a
+              href="https://aslemaenasaif.github.io/my-resume/Saif_Abdelkefi_Resume.pdf"
+              target="_blank"
+            >
               <i className="fa-solid fa-file-pen"></i>
             </a>
             <span className={"tooltipCV"}>preview resume</span>

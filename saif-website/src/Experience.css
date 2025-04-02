@@ -28,6 +28,7 @@ ul {
 p {
   margin: 0px;
 }
+
 h3 {
   font-size: var(--font-size-5);
   margin-top: 0px;
@@ -41,4 +42,13 @@ h3 {
       color: var(--text-color);
     }
   }
+}
+
+.secondParagraph {
+  margin-top: 1rem;
+}
+
+.projectTitle {
+  color: var(--tesxt-color-2);
+  font-size: var(--font-size-45);
 }

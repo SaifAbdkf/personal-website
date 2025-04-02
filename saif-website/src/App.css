@@ -23,3 +23,19 @@
     margin-top: 3rem;
   }
 }
+
+.loader {
+  opacity: 0;
+}
+.loaded {
+  animation: fadeIn 0.1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
