@@ -6,7 +6,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Header from "./Header";
 import Navbar from "./Navbar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -14,6 +14,13 @@ export default function App() {
   window.onload = () => {
     setIsLoaded(true);
   };
+
+  //in case website is opened in private mode and Javacript cannot access window.onLoad
+  useEffect(() => {
+    setTimeout(() => {
+      if (!isLoaded) setIsLoaded(true);
+    }, 600);
+  }, [isLoaded]);
 
   return (
     <div className={`loader  ${isLoaded ? "loaded" : ""}`}>
