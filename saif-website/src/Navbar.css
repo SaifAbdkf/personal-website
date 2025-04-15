@@ -13,6 +13,7 @@
       font-size: var(--font-size-5);
       position: relative;
       cursor: pointer;
+      color: var(--text-color-darker);
     }
 
     /* Hover effect */
@@ -28,7 +29,7 @@
 
 .menu-button.active {
   background-color: var(--background-color-lighter);
-  color: var(--text-color);
+  color: var(--text-color) !important;
   border-radius: 5px;
 }
 

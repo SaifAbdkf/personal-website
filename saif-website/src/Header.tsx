@@ -1,6 +1,7 @@
 import "./Header.css";
 import pic2 from "../assets/images/coverPicteotihuacan_smaller.jpg";
 import { Link } from "react-router-dom";
+import { FileUser, Github, Linkedin } from "lucide-react";
 
 export default function Header() {
   return (
@@ -26,14 +27,15 @@ export default function Header() {
               href="https://aslemaenasaif.github.io/my-resume/Saif_Abdelkefi_Resume.pdf"
               target="_blank"
             >
-              <i className="fa-solid fa-file-pen"></i>
+              <FileUser size={26} />
             </a>
             <span className={"tooltipCV"}>preview resume</span>
           </div>
           <span className={"tooltipCV"}>preview cv</span>
           <div className="githubLink">
             <a href="https://github.com/AslemaEnaSaif" target="_blank">
-              <i className="fa-brands fa-github"></i>
+              {/* <i className="fa-brands fa-github icon"></i> */}
+              <Github size={26} />
             </a>
             <span className={"tooltipGithub"}>checkout github</span>
           </div>
@@ -43,7 +45,8 @@ export default function Header() {
               href="https://www.linkedin.com/in/saifabdelkefi/"
               target="_blank"
             >
-              <i className="fa-brands fa-linkedin"></i>
+              <Linkedin size={26} />
+              {/* <i className="fa-brands fa-linkedin icon"></i> */}
             </a>
             <span className={"tooltipLinkedin"}>connect on linkedin</span>
           </div>

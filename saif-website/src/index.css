@@ -4,7 +4,6 @@
 
 * {
   background-color: var(--background-color);
-  color: var(--text-color-darker);
   font-family: "argon";
   line-height: 1.55rem;
 }
@@ -15,8 +14,12 @@
 html {
   scrollbar-width: none;
 }
-
+a {
+  color: var(--text-color-darker);
+}
 body {
+  color: var(--text-color-darker);
+
   margin: 0;
 }
 

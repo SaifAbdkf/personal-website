@@ -46,6 +46,10 @@
   .linkedinLink {
     position: relative;
     cursor: pointer;
+    .lucide {
+      color: var(--text-blue-gray);
+      stroke-width: 1px;
+    }
   }
 
   .tooltipCV,

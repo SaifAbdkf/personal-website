@@ -17,8 +17,6 @@ export default function Home() {
         step at a time, with the user always in mind. I find LLMs to be a great
         assistant along the way.
       </p>
-
-      <p>...Also, naming commits is my nemesis: ‘fix-stuff’ is my default.</p>
     </div>
   );
 }
