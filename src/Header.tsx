@@ -48,7 +48,7 @@ export default function Header() {
               <Linkedin size={26} />
               {/* <i className="fa-brands fa-linkedin icon"></i> */}
             </a>
-            <span className={"tooltipLinkedin"}>connect on linkedin</span>
+            <span className={"tooltipLinkedin"}>connect on linkedinnn</span>
           </div>
         </div>
       </div>
