@@ -8,7 +8,7 @@ export default function Experience() {
           <div className="listItemContainer">
             <div className={"jobTitleContainer "}>
               <h2 className={"jobTitle"}>
-                Software Developerrrr (Started as an Intern)
+                Software Developerrrrss (Started as an Intern)
               </h2>
               <span className={"date"}>May 2023 &#x2192; Aug 2024</span>
             </div>
