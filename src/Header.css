@@ -27,8 +27,8 @@
     }
   }
   .occupation {
-    color: var(--text-blue-gray);
-    font-size: var(--font-size-4);
+    color: var(--text-color-darker);
+    font-size: var(--font-size-47);
   }
 
   .links {
@@ -47,7 +47,7 @@
     position: relative;
     cursor: pointer;
     .lucide {
-      color: var(--text-blue-gray);
+      color: var(--text-color-darker);
       stroke-width: 1px;
     }
   }

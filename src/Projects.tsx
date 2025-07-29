@@ -24,7 +24,7 @@ export default function Project() {
 
         <li>
           <a
-            href="https://github.com/AslemaEnaSaif/2022_Worldcup_predictor"
+            href="https://github.com/SaifAbdkf/2022_Worldcup_predictor"
             target="_blank"
           >
             <div className={`${styles.listItemContainer}`}>
@@ -54,7 +54,7 @@ export default function Project() {
 
         <li>
           <a
-            href="https://github.com/AslemaEnaSaif/Get_me_MyCourses/"
+            href="https://github.com/SaifAbdkf/Get_me_MyCourses/"
             target="_blank"
           >
             <div className={`${styles.listItemContainer}`}>

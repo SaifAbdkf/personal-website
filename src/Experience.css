@@ -1,11 +1,13 @@
 ul {
   list-style-type: none;
   padding: 0px;
+  margin: 0;
 }
 
 .listItemContainer {
   box-sizing: border-box;
   padding: 1.425rem;
+  padding-bottom: 2.225rem;
   padding-left: 0.325rem;
 }
 .jobTitleContainer {
@@ -25,11 +27,13 @@ ul {
     color: var(--text-color);
   }
 }
+
 p {
   margin: 0px;
 }
 
 h3 {
+  color: var(--text-color-2);
   font-size: var(--font-size-5);
   margin-top: 0px;
   font-weight: 400;
@@ -37,6 +41,7 @@ h3 {
 
   .myLink {
     text-decoration: underline;
+    color: var(--text-color-2);
 
     &:hover {
       color: var(--text-color);
@@ -49,6 +54,6 @@ h3 {
 }
 
 .projectTitle {
-  color: var(--tesxt-color-2);
+  color: var(--text-color);
   font-size: var(--font-size-45);
 }

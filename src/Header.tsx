@@ -24,7 +24,7 @@ export default function Header() {
         <div className={"links"}>
           <div className="cvLink">
             <a
-              href="https://aslemaenasaif.github.io/my-resume/Saif_Abdelkefi_Resume.pdf"
+              href="https://saifabdkf.github.io/my-resume/Saif_Abdelkefi_Resume.pdf"
               target="_blank"
             >
               <FileUser size={26} />
@@ -33,7 +33,7 @@ export default function Header() {
           </div>
           <span className={"tooltipCV"}>preview cv</span>
           <div className="githubLink">
-            <a href="https://github.com/AslemaEnaSaif" target="_blank">
+            <a href="https://github.com/SaifAbdkf" target="_blank">
               {/* <i className="fa-brands fa-github icon"></i> */}
               <Github size={26} />
             </a>

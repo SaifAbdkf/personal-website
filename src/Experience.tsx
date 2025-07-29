@@ -7,9 +7,34 @@ export default function Experience() {
         <li>
           <div className="listItemContainer">
             <div className={"jobTitleContainer "}>
-              <h2 className={"jobTitle"}>
-                Software Developerrrrss (Started as an Intern)
-              </h2>
+              <h2 className={"jobTitle"}> Founding Engineer</h2>
+              <span className={"date"}>July 2025</span>
+            </div>
+            <h3 className={"company"}>
+              <a
+                className="myLink"
+                href="https://powerdime.io/"
+                target="_blank"
+              >
+                Power Dime
+              </a>
+              , Toronto
+            </h3>
+
+            <div className={"secondParagraph"}>
+              <div className="indentedParagraph">
+                Collaborated on early-stage technical decisions and architecture
+                planning of the MVP, working closely with the internal founder
+                team and external design partners at OpsGuru
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div className="listItemContainer">
+            <div className={"jobTitleContainer "}>
+              <h2 className={"jobTitle"}>Software Developer</h2>
               <span className={"date"}>May 2023 &#x2192; Aug 2024</span>
             </div>
             <h3>
