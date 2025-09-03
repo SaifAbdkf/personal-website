@@ -13,7 +13,11 @@
     flex: 1;
   }
 }
-
+p {
+  line-height: 1.6;
+  justify-content: end;
+  text-align: justify;
+}
 @media (max-width: 768px) {
   .websiteView {
     display: block;

@@ -39,6 +39,9 @@
     i {
       color: var(--text-color);
     }
+    .icon:hover {
+      color: white;
+    }
   }
 
   .cvLink,

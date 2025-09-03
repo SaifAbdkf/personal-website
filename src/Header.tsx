@@ -27,7 +27,7 @@ export default function Header() {
               href="https://saifabdkf.github.io/my-resume/Saif_Abdelkefi_Resume.pdf"
               target="_blank"
             >
-              <FileUser size={26} />
+              <FileUser className="icon" size={26} />
             </a>
             <span className={"tooltipCV"}>preview resume</span>
           </div>
@@ -35,7 +35,7 @@ export default function Header() {
           <div className="githubLink">
             <a href="https://github.com/SaifAbdkf" target="_blank">
               {/* <i className="fa-brands fa-github icon"></i> */}
-              <Github size={26} />
+              <Github className="icon" size={26} />
             </a>
             <span className={"tooltipGithub"}>checkout github</span>
           </div>
@@ -45,7 +45,7 @@ export default function Header() {
               href="https://www.linkedin.com/in/saifabdelkefi/"
               target="_blank"
             >
-              <Linkedin size={26} />
+              <Linkedin className="icon" size={26} />
               {/* <i className="fa-brands fa-linkedin icon"></i> */}
             </a>
             <span className={"tooltipLinkedin"}>connect on linkedinnn</span>

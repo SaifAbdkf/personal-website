@@ -22,11 +22,11 @@ export default function Experience() {
             </h3>
 
             <div className={"secondParagraph"}>
-              <div className="indentedParagraph">
+              <p>
                 Collaborated on early-stage technical decisions and architecture
                 planning of the MVP, working closely with the internal founder
                 team and external design partners at OpsGuru.
-              </div>
+              </p>
             </div>
           </div>
         </li>
@@ -45,22 +45,22 @@ export default function Experience() {
             </h3>
             <div>
               <div className="projectTitle">Project1 – PixMob Platform</div>
-              <div className="indentedParagraph">
+              <p>
                 An internal system designed to manage and track the state of
                 PixMob's event technology ecosystem. Shaped and worked on an OTA
                 update device feature. Developed frontend and backend CRUD
                 functionalities.
-              </div>
+              </p>
             </div>
             <div className={"secondParagraph"}>
               <div className="projectTitle">Project2 – The Visualizer</div>
-              <div className="indentedParagraph">
+              <p>
                 A Web application for 3D light shows visualization according to
                 the PixMob DMX lighting protocol. Designed, developed and tested
                 features including 3D camera transitions. Built UI/UX for
                 control panels and tools, integrating and customizing opensource
                 UI libraries.
-              </div>
+              </p>
             </div>
           </div>
         </li>

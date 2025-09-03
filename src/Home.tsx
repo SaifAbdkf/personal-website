@@ -4,18 +4,26 @@ export default function Home() {
   return (
     <div className={"homeDescription jumpAnimation"}>
       <p>
-        Hey! My name is Saif, a full stack software engineer with 3+ years of
-        experience & a{" "}
+        I’m Saif, a full stack software engineer and a{" "}
         <a className="myLink" href="https://www.mcgill.ca/" target="_blank">
           McGill
         </a>{" "}
-        Computer Science alumni.
+        CS graduate. I specialize in transforming clients needs and business
+        ideas into practical engineered solutions.
       </p>
       <p>
-        I aim to write maintainable, efficient, and composable code. To me,
-        programming is about decomposing problems and figuring things out one
-        step at a time, with the user always in mind. I find LLMs to be a great
-        assistant along the way.
+        My experience spans 3D web visualizations, CRUD systems for resource
+        management, and Microsoft Power Platform for business intelligence
+        solutions. Writing maintainable code is my craft, primarily in
+        TypeScript for the web, Python for automation and data driven projects,
+        while keeping a soft spot for Java and its robust architecture. I also
+        use LLMs and modern tools to optimize every step of the continuous
+        development process.
+      </p>
+      <p>
+        I'm a builder at heart, I dive deep into my projects, learning,
+        experimenting, and delivering reliable systems that make a tangible
+        impact.
       </p>
     </div>
   );
