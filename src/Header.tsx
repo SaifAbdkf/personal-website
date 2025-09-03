@@ -1,5 +1,5 @@
 import "./Header.css";
-import pic2 from "../assets/images/coverPicteotihuacan_smaller.jpg";
+import pic2 from "../assets/images/coverPicteotihuacan_smaller 2.jpg";
 import { Link } from "react-router-dom";
 import { FileUser, Github, Linkedin } from "lucide-react";
 

@@ -4,7 +4,8 @@
   justify-content: flex-start;
 
   .pictureContainer {
-    width: 250px;
+    width: 300px;
+    /* transform: scale(3); */
   }
 
   .infoContainer {
