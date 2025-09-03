@@ -10,11 +10,11 @@ export default function Project() {
           >
             <h2 className={styles.projectTitle}>GraphCards</h2>
             <p className={`${styles.projectDescription}`}>
-              Currently building a Knowledge Management System (KMS) web
-              application that visualizes relationships between concepts as an
-              interactive graph leveraging OpenAI API and machine learning
-              techniques (including word embeddings and clustering) for
-              intelligent context-driven connections
+              Currently building a flashcards web application that visualizes
+              relationships between cards as an interactive graph,leveraging
+              graph algirthms and machine learning techniques (including word
+              embeddings and clustering) for intelligent context-driven
+              connections
             </p>
             <span className={`${styles.inProgressLabel}`}>
               work in progress{" "}

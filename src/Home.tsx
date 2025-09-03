@@ -13,8 +13,8 @@ export default function Home() {
       </p>
       <p>
         My experience spans 3D web visualizations, CRUD systems for resource
-        management, and Microsoft Power Platform for business intelligence
-        solutions. Writing maintainable code is my craft, primarily in
+        management, and Microsoft Power Platform solutions for business
+        intelligence. Writing maintainable code is my craft, primarily in
         TypeScript for the web, Python for automation and data driven projects,
         while keeping a soft spot for Java and its robust architecture. I also
         use LLMs and modern tools to optimize every step of the continuous
